@@ -7,7 +7,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./CarND-LaneLines-P1-master/test_images/output_solidWhiteCurve.jpg "Lines"
 
 ---
 
@@ -28,7 +28,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 The average slope and intercept for each line was found, using the lengths as the weights so that there is bias toward longer segments.
 To eliminate frame jitter in the drawn lines in videos, line information from the previous frame is used to calculate a weighted average line. A distinction is made between image and video files based on the file extesions.
 
-![alt text][image1]
+![image1]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
